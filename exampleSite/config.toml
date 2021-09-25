@@ -1,9 +1,9 @@
 ######################## default configuration ####################
 baseURL = "http://examplesite.org/"
-title = "Bigspring Hugo"
+title = "Tech4Work"
 theme = "bigspring"
-languageName = "En"
-languageCode = "en-us"
+languageName = "Fr"
+languageCode = "fr-fr"
 # post pagination
 paginate = "3"
 # post excerpt
@@ -43,10 +43,10 @@ name = "Blog"
 URL = "blog"
 weight = 1
 
-[[menu.main]]
-name = "Pricing"
-URL = "pricing"
-weight = 2
+#[[menu.main]]
+#name = "Pricing"
+#URL = "pricing"
+#weight = 2
 
 [[menu.main]]
 name = "Contact"
@@ -60,29 +60,21 @@ weight = 4
 
 # footer menu left
 [[menu.footer_left]]
-name = "About Us"
+name = "À propos"
 URL = "#"
 
 [[menu.footer_left]]
-name = "Quick Start"
-URL = "#"
-
-[[menu.footer_left]]
-name = "Pricing"
-URL = "pricing"
+name = "Contact"
+URL = "contact"
 
 
 # footer menu middle
 [[menu.footer_middle]]
-name = "Pricing"
-URL = "pricing"
-
-[[menu.footer_middle]]
-name = "Platform"
+name = "Platforme"
 URL = "#"
 
 [[menu.footer_middle]]
-name = "Features"
+name = "Fonctionnalités"
 URL = "#"
 
 # footer menu right
@@ -109,12 +101,12 @@ author = "Themefisher"
 contact_form_action = "#" # contact form works with https://formspree.io
 
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
+footer_menu_left = "Société"
+footer_menu_middle = "Produit"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = " SAMI (by Tech4Work) est une plateforme numérique collaborative pour la sécurisation des parcours des travailleurs et l'accompagnement pour une meilleure accessibilité aux droits"
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/) Site By [Sofianinho](https://twitter.com/IamSofianinho)"
 
 # Preloader
 [params.preloader]
@@ -129,22 +121,22 @@ link = "contact"
 
   
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#title = "twitter"
+#icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social]]
-title = "skype"
-icon = "ti-skype" # themify icon : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#title = "skype"
+#icon = "ti-skype" # themify icon : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/tech-for-work/"
