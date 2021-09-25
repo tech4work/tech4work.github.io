@@ -1,15 +1,16 @@
 ---
-title: "Contact Us"
+title: "Contactez nous"
 subtitle: ""
 # meta description
-description: "This is meta description"
+description: "page de contact"
 draft: false
 ---
 
 
-### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+### Un premier contact peut nous emmener loin
 
-* **Phone: +88 125 256 452** 
+Nous serons ravis de répondre et de vous proposer une démonstration des fonctionnalités de SAMI
+
+<!-- * **Phone: +88 125 256 452** 
 * **Mail: info@bigspring.com**
-* **Address: 360 Main rd, Rio, Brazil**
+* **Address: 360 Main rd, Rio, Brazil** -->
