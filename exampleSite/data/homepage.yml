@@ -67,9 +67,9 @@ service:
         link : "contact"
         
     # service item loop
-    - title : "Honnoré d'être parmis les 4 projets lauréats du programme d'innovation 21 x OETH"
+    - title : "Heureux lauréats du programme d'innovation 21 x OETH"
       images:
-      - "images/21.svg"
+      - "images/21.png"
       content : "21, l’Accélérateur de la Croix-Rouge française et de Nexem, en partenariat avec l’association Accord Handicap OETH ont sélectionné pour 2021 quatre projets à impact au service du handicap au travail dans le secteur social, sanitaire et médico-social."
       button:
         enable : true
