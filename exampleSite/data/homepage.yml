@@ -50,17 +50,12 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "Une plateforme innovante au service de vos salariés"
+    - title : "Une plateforme innovante au service du retour et maintien dans l'emploi"
       images:
       - "images/feature-1.svg"
       - "images/feature-2.svg"
       - "images/feature-3.svg"
-      content : "
-      - Sécurisation du parcours des bénéficiaires pour un projet de retour au travail réussi
-      
-      - Coordination facilitée des acteurs de l’accompagnement autour du projet
-      
-      - Collaboration intuitive des consultants dans l'espace personnel du bénéficiaire"
+      content : ""
       button:
         enable : true
         label : "Aller plus loin"
