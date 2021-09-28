@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
+baseURL = "http://www.tech4work.fr/"
 title = "Tech4Work"
 theme = "bigspring"
 languageName = "Fr"
@@ -95,8 +95,8 @@ URL = "faq"
 logo = "images/logo.png"
 logo_width = "200px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Tech4Work: Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
+author = "Tech4Work"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -104,7 +104,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 footer_menu_left = "Société"
 footer_menu_middle = "Produit"
 footer_menu_right = "Support"
-footer_content = " SAMI (by Tech4Work) est une plateforme numérique collaborative pour la sécurisation des parcours des travailleurs et l'accompagnement pour une meilleure accessibilité aux droits"
+footer_content = " SAM.I (by Tech4Work) est une plateforme numérique collaborative pour la sécurisation des parcours des travailleurs et l'accompagnement pour une meilleure accessibilité aux droits"
 # copyright
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/) Site By [Sofianinho](https://twitter.com/IamSofianinho)"
 

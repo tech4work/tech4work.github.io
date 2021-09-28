@@ -2,7 +2,7 @@
 banner:
   title : "Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
   image : "images/banner-art.svg"
-  content : "La plateforme collaborative SAMI"
+  content : "La plateforme collaborative SAM.I"
   button:
     enable : true
     label : "Demandez une démo"
