@@ -12,9 +12,9 @@
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nom">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Email">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Organisme">
-          <input type="tel" class="form-control mb-3" id="phone" name="phone" placeholder="Téléphone: 01 12 34 56 78" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}">
+          <input type="tel" class="form-control mb-3" id="phone" name="phone" placeholder="Téléphone: 01 12 34 56 78" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}|[0-9]{10}|[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}|[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}">
           <textarea name="message" id="message" class="form-control mb-3" placeholder="Votre Message"></textarea>
-          <input type="checkbox" id="infosconsent" name="consent" value="consent"> En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de ma demande, et de la relation commerciale qui pourrait en découler.
+          <input class="check-mark" type="checkbox" id="infosconsent" name="consent" value="ok-consent" checked> En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de ma demande, et de la relation commerciale qui pourrait en découler.
           <br><br>
 
           <button type="submit" value="send" class="btn btn-primary">Envoyer</button>
