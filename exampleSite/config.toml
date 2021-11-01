@@ -92,7 +92,7 @@ URL = "faq"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo-rose.png"
+logo = "images/logo.png"
 logo_width = "200px"
 # Meta data
 description = "Tech4Work: Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
