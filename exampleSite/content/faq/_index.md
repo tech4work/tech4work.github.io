@@ -16,7 +16,7 @@ Nous sommes dans une phase de développement actif du projet avec nos partenaire
 {{</ faq >}}
 
 {{< faq "Quel est le coût de votre plateforme?" >}}
-Parlons en &#128512;. Vous pouvez nous laisser vos coordonées sur le formulaire de contact [ici](/contact) et nous ne manquerons pas de revenir vers vous.
+Parlons-en &#128512;. Vous pouvez nous laisser vos coordonées sur le formulaire de contact [ici](/contact) et nous ne manquerons pas de revenir vers vous.
 {{</ faq >}}
 
 {{< faq "Comment suivre le développement de Tech for work et de sa plateforme?" >}}
