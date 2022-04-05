@@ -1,7 +1,7 @@
 ####################### Banner #########################
 banner:
   title : "Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
-  image : "images/banner-art.svg"
+  image : "images/live.svg"
   content : "La plateforme collaborative SAM.I"
   button:
     enable : true

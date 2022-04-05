@@ -82,9 +82,9 @@ URL = "#"
 name = "Privacy Policy"
 URL = "privacy-policy"
 
-[[menu.footer_right]]
-name = "Terms & Conditions"
-URL = "terms-conditions"
+#[[menu.footer_right]]
+#name = "Terms & Conditions"
+#URL = "terms-conditions"
 
 [[menu.footer_right]]
 name = "FAQ"
@@ -104,7 +104,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 footer_menu_left = "Société"
 footer_menu_middle = "Produit"
 footer_menu_right = "Support"
-footer_content = " SAM.I (by Tech4Work) est une plateforme numérique collaborative pour la sécurisation des parcours des travailleurs et l'accompagnement pour une meilleure accessibilité aux droits"
+footer_content = " SAM.I (par Tech4Work) est une plateforme numérique collaborative pour la sécurisation des parcours des travailleurs, l'accompagnement et une meilleure accessibilité aux droits"
 # copyright
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/) Site By [Sofianinho](https://twitter.com/IamSofianinho)"
 
