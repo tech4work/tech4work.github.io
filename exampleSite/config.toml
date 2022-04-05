@@ -98,7 +98,7 @@ logo_width = "200px"
 description = "Tech4Work: Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
 author = "Tech4Work"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "contact@tech4work.fr" # contact form works with https://formspree.io
 
 ########### footer content ##########
 footer_menu_left = "Société"

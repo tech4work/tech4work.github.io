@@ -8,7 +8,7 @@
         {{ .Content }}
       </div>
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST" data-netlify="true">
+        <form name="Contact Form" action="{{ site.Params.contact_form_action | safeURL }}" method="POST" data-netlify="true">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nom">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Email">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Organisme">
