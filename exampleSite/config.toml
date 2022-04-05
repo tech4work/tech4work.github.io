@@ -126,10 +126,10 @@ link = "contact"
 #icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 #link = "#"
 
-#[[params.social]]
-#title = "twitter"
-#icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-#link = "#"
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/tech4work"
 
 #[[params.social]]
 #title = "skype"
