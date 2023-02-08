@@ -90,7 +90,7 @@
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absURL }}" class="btn-link">{{ .label }} <i class="ti-arrow-right"></i></a>
+        <a href="{{ .link | absURL }}" class="btn-link" target="_blank">{{ .label }} <i class="ti-arrow-right"></i></a>
         {{ end }}
         {{ end }}
       </div>
@@ -119,6 +119,21 @@
 {{ end }}
 {{ end }}
 <!-- /screenshot -->
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-title">Sam.i dans la chronique RTL & Agefiph</h2>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/FwprGf4p5lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <!-- call to action -->
 {{ if site.Data.homepage.call_to_action.enable }}

@@ -18,21 +18,27 @@
   <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen"/>
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.ico` | absURL }}" type="image/x-icon">
 
   
   {{ template "_internal/opengraph.html" . }}
   {{ with .Params.Image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
+  <meta name="image" content="{{ . | absURL }}" />
   {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- begin seo -->
+  <meta name="title" content="Tech For Work" />
+  <meta name="locale" content="fr_FR" />
+  <meta name="description" content="Tech For Work, Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion" />
+  <meta rel="canonical" href="https://www.tech4work.fr" />
+  <meta name="site_name" content="Sam.i by Tech4Work" />
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="Tech For Work" />
-  <meta property="og:locale" content="fr_FR" />
   <meta property="og:description" content="Tech For Work, Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion" />
+  <meta property="og:image" content="https://www.tech4work.fr/images/live3.svg" />
   <meta property="og:url" content="https://www.tech4work.fr" />
-  <meta property="og:site_name" content="Tech4Work" />
+  <meta property="og:site_name" content="Sam.i by Tech For Work" />
   <script type="application/ld+json">{"@type":"WebSite","url":"https://www.tech4work.fr","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://ape.tech4work.fr/images/logo_bl.png"}},"name":"Tech4Work","headline":"Tech4Work","description":"Tech For Work,  Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion","@context":"https://schema.org"}</script>
   <!-- end seo -->
   

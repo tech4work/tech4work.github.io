@@ -58,6 +58,19 @@
     border-color: $primary-color !important;
   }
 }
+.btn-secondary {
+  background-color: $secondary-color;
+  color: $white;
+  border-color: $secondary-color;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background-color: $secondary-color !important;
+    border-color: $secondary-color !important;
+  }
+}
 
 .btn-outline-primary {
   background-color: transparent;
