@@ -1,11 +1,11 @@
 ####################### Banner #########################
 banner:
   title : "Accélérateur de progrès pour le maintien dans l'emploi et l'inclusion"
-  image : "images/live.svg"
-  content : "La plateforme collaborative SAM.I"
+  image : "images/live3.svg"
+  content : ""
   button:
     enable : true
-    label : "Demandez une démo"
+    label : "Demander une démo"
     link : "contact"
 
 ##################### Feature ##########################
@@ -16,25 +16,25 @@ feature:
     # feature item loop
     - name : "Une plateforme collaborative"
       icon : "ti-pulse"
-      content : "Avec un impact instantané sur ses utilisateurs"
+      content : "Pour décloisonner les intitutions du maintien dans l'emploi"
       
     # feature item loop
-    - name : "Centrée utilisateur"
+    - name : "Centrée bénéficiaire"
       icon : "ti-user"
-      content : "SAMI est pensée avant tout pour ses utilisateurs"
+      content : "Pour sécuriser les parcours professionnels et éviter les décrochages"
       
     # feature item loop
     - name : "Délais raccourcis"
       icon : "ti-alarm-clock"
-      content : "Nous rapprochons tous les jours les bénéficiaires de leurs consultants"
+      content : "Nous renforçons la coordination entre les acteurs de l'accompagnement"
       
     # feature item loop
     - name : "Données maitrisées"
       icon : "ti-panel"
-      content : "Nous valorisons et respectons les données que vous nous confiez"
+      content : "Qui permet de mesurer l'impact des actions engagées"
       
     # feature item loop
-    - name : "Support"
+    - name : "Support métier"
       icon : "ti-headphone-alt"
       content : "Nous vous accompagnons tout au long du cycle de vie de la plateforme"
       
@@ -50,27 +50,41 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "Une plateforme innovante au service du retour et maintien dans l'emploi"
+    - title : "Ils nous font confiance..."
       images:
-      - "images/feature-1.svg"
-      - "images/feature-2.svg"
-      - "images/feature-3.svg"
+      - "images/partenaires.png"
       content : ""
       button:
-        enable : true
+        enable : false
+        label : "Aller plus loin"
+        link : "contact"
+    - title : "et confirment après usage."
+      images:
+      - "images/testimonial.png"
+      content : ""
+      button:
+        enable : false
         label : "Aller plus loin"
         link : "contact"
         
     # service item loop
     - title : "Heureux lauréats du programme d'innovation 21 x OETH"
       images:
-      - "images/21.png"
+      - "images/award1.png"
       content : "21, l’Accélérateur de la Croix-Rouge française et de Nexem, en partenariat avec l’association Accord Handicap OETH ont sélectionné pour 2021 quatre projets à impact au service du handicap au travail dans le secteur social, sanitaire et médico-social."
       button:
         enable : true
         label : "Communiqué de presse"
         link : "https://21-croix-rouge.fr/wp-content/uploads/2021/08/CP-l-Programme-21-x-OETH-l-Annonce-des-laureats.pdf"
-        
+    - title : "Heureux lauréats du Handitech Trophy 2022"
+      images:
+      - "images/handitech.png"
+      content : "La bonne nouvelle pour Sam.i by Tech for Work. Cette récompense du premier concours national des innovations en faveur de l'inclusion, organisé par le Groupe Jobinlive et Bpifrance nous honore. Les collaborateurs/trices du Groupe SII nous ont consacré lauréat de la thématique #Emploi. Un honneur pour nous de recevoir cette récompense par Maud LORANT et Christophe ROTH Président de Agefiph, en la présence de Madame la ministre Geneviève Darrieussecq."
+      button:
+        enable : true
+        label : "Interview après la cérémonie"
+        link : "https://www.youtube.com/watch?v=yqaTusSqJ5w"
+     
     # # service item loop
     # - title : "It’s a team of experienced and skilled people with distributions"
     #   images:
@@ -103,7 +117,7 @@ service:
 call_to_action:
   enable : true
   title : "Envie d'aller plus loin ? Nous aussi"
-  image : "images/contact_form.svg"
+  image : "images/connect.png"
   content : ""
   button:
     enable : true
