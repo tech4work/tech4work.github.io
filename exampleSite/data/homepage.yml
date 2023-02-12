@@ -11,62 +11,44 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Fonctionnalités"
+  title : "Notre démarche" 
   feature_item:
     # feature item loop
-    - name : "Une plateforme collaborative"
-      icon : "ti-pulse"
-      content : "Pour décloisonner les intitutions du maintien dans l'emploi"
+    - name : "Décloisonner"
+      icon : "ti-unlock"
+      content : "les institutions du maintien dans l'emploi"
       
     # feature item loop
-    - name : "Centrée bénéficiaire"
-      icon : "ti-user"
-      content : "Pour sécuriser les parcours professionnels et éviter les décrochages"
+    - name : "Coordonner"
+      icon : " ti-direction-alt"
+      content : "les acteurs de l'accompagnement"
       
     # feature item loop
-    - name : "Délais raccourcis"
-      icon : "ti-alarm-clock"
-      content : "Nous renforçons la coordination entre les acteurs de l'accompagnement"
+    - name : "Sécuriser"
+      icon : " ti-heart-broken "
+      content : "Les parcours professionnels"
       
     # feature item loop
-    - name : "Données maitrisées"
-      icon : "ti-panel"
-      content : "Qui permet de mesurer l'impact des actions engagées"
-      
-    # feature item loop
-    - name : "Support métier"
-      icon : "ti-headphone-alt"
-      content : "Nous vous accompagnons tout au long du cycle de vie de la plateforme"
-      
-    # feature item loop
-    # - name : "Cloud Support"
-    #   icon : "ti-cloud-up"
-    #   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
+    - name : "Mesurer"
+      icon : " ti-pie-chart"
+      content : "L'impact des actions engagées"
 
 
 ######################### Service #####################
+partners:
+  enable : true
+  title : "Ils nous font confiance"
+  image: "images/partenaires.png"
+
+testimonial:
+  enable : true
+  title : "Ils témoignent"  
+  testimonial_item:
+    - name : "Une plateforme collaborative"
+      content : "l’intérêt principal de votre outil est la simplicité d’utilisation. Les salariés peuvent vraiment accéder à leurs informations sur leur parcours et également nous permettre (les différents intervenants) de mieux travailler ensemble!"
 service:
   enable : true
   service_item:
-    # service item loop
-    - title : "Ils nous font confiance..."
-      images:
-      - "images/partenaires.png"
-      content : ""
-      button:
-        enable : false
-        label : "Aller plus loin"
-        link : "contact"
-    - title : "et confirment après usage."
-      images:
-      - "images/testimonial.png"
-      content : ""
-      button:
-        enable : false
-        label : "Aller plus loin"
-        link : "contact"
-        
     # service item loop
     - title : "Heureux lauréats du programme d'innovation 21 x OETH"
       images:
@@ -78,32 +60,13 @@ service:
         link : "https://21-croix-rouge.fr/wp-content/uploads/2021/08/CP-l-Programme-21-x-OETH-l-Annonce-des-laureats.pdf"
     - title : "Heureux lauréats du Handitech Trophy 2022"
       images:
-      - "images/handitech.png"
+      #- "images/handitech.png"
+      - "images/trophy.jpeg"
       content : "La bonne nouvelle pour Sam.i by Tech for Work. Cette récompense du premier concours national des innovations en faveur de l'inclusion, organisé par le Groupe Jobinlive et Bpifrance nous honore. Les collaborateurs/trices du Groupe SII nous ont consacré lauréat de la thématique #Emploi. Un honneur pour nous de recevoir cette récompense par Maud LORANT et Christophe ROTH Président de Agefiph, en la présence de Madame la ministre Geneviève Darrieussecq."
       button:
         enable : true
         label : "Interview après la cérémonie"
         link : "https://www.youtube.com/watch?v=yqaTusSqJ5w"
-     
-    # # service item loop
-    # - title : "It’s a team of experienced and skilled people with distributions"
-    #   images:
-    #   - "images/service-2.png"
-    #   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    #   button:
-    #     enable : true
-    #     label : "Check it out"
-    #     link : "#"
-        
-    # # service item loop
-    # - title : "A company standing different from others"
-    #   images:
-    #   - "images/service-3.png"
-    #   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    #   button:
-    #     enable : true
-    #     label : "Check it out"
-    #     link : "#"
         
 ################### Screenshot ########################
 # screenshot:
